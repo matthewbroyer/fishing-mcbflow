@@ -1,6 +1,24 @@
 # Release notes: fishing.mcbflow.com
 
-The same notes show in the app under Menu → What’s new. Newest first.
+The same notes show in the app under What’s new (page footer, Settings → About, or the ≡ menu). Newest first.
+
+## 1.8 · 2026-10-16
+- New Settings page: the gear at the bottom of the sidebar, or More → Settings on phones. Appearance, account and sync, units, region, weather, your species and lure lists, backup and data, install and about, in the same order as every mcbflow.com app. Help & FAQ has its own page next to it.
+- Account button in the top bar: “Sign in”, or your initial with a small sync dot once you’re signed in. “Keep me signed in on this device” is on by default; turn it off and the sign-in ends when the browser closes.
+- New welcome screen, the same in every app: welcome, pick a look (light or dark), the one-tap logging demo with your units, place and weather, then your region. Sign in or import a backup right from it if you’re moving from another device.
+- Clearer Data menu: Save backup now (Ctrl+S), Sync, Export All (JSON, CSV or ZIP), Export Photos (ZIP), Export Spots (GPX), Import Backup, Import Spots (GPX) and Clear all data, each with a one-line description, plus your backup status. The ZIP now also holds a spreadsheet of your catches. On phones the menu opens from the bottom.
+- Photos open in the app’s photo viewer: a gallery for each catch (arrows between photos, fit or actual size, Download). Thumbnails in your catch lists, the photo grid and map pins open it. Photos from another device still say “Not on this device”.
+- Quieter backup reminders while you’re signed in and syncing: no dot on Data and no backup step in Get set up. The Data menu says “Synced to your account” with your last file backup.
+- Every control in the top bar is the same height, and the name now reads “Fishing ∙ mcbflow.com” (just “Fishing” on phones).
+- Charts: hover, tap or use the arrow keys on the Time of day and Month charts (Stats → What works) to read each bar; the bar you’re reading stays bright. The bite forecast chart marks the Good and Great levels with dashed lines.
+- A short footer at the end of each page with What’s new, Privacy, Terms and More free apps.
+- Signed in, you can pick a screen name and one of 20 profile pictures (account dialog → Edit profile). It shows on the account button, in Settings and in every mcbflow.com app you sign in to.
+- A greeting on Home: “Good morning”, or “Good morning, <your name>” when you’re signed in with a screen name.
+- The start tab is now called Home (house icon); it’s the same log-a-fish screen. Settings has a proper gear icon, and Help and More use the shared icons too.
+- Home, tidier on phones: Start a trip and Set lure (and Log a photo / Log details) share their row exactly 50/50. In the Fishing now card every action (spot, lure, Got away, End trip) is a solid button with an icon, two per row, and the read-only details (fish this trip, got away, weather, moon) sit underneath as plain info chips that don’t look tappable. No more dashed buttons.
+- Search results: tap a catch’s thumbnail to see its photos; tap the rest of the row to open the catch.
+- The separate privacy pop-up is gone; what leaves your device is on the first welcome step, in Help and on the Privacy page.
+- Your catches, trips, spots, photos, settings and backup files are unchanged, and older backups still import.
 
 ## 1.7 · 2026-10-15
 - Optional free mcbflow.com account: sign in from Data or More → Sync across devices to keep catches, trips, spots and your species and lure lists the same on your phone and computer. Without an account, everything works as before and nothing leaves your device.
@@ -8,7 +26,7 @@ The same notes show in the app under Menu → What’s new. Newest first.
 - Delete all data warns that it also deletes your synced copy when signed in.
 
 ## 1.6 · 2026-10-14
-- Moved to fishing.mcbflow.com. Data saved at mbfishing.online doesn’t carry over: export a backup there and import it here.
+- Moved to fishing.mcbflow.com. Data saved at the old address doesn’t carry over: export a backup there and import it here.
 - Storage names simplified.
 
 ## 1.5 · 2026-10-14

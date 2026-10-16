@@ -51,17 +51,18 @@ h1{font-weight:650;letter-spacing:-.015em}h2{font-weight:650}
 .brand svg{display:block;flex:none;width:28px;height:28px}
 .brand .bt{display:flex;flex-direction:column;line-height:1.15}.brand b{font-size:14.5px;font-weight:650;color:var(--ink)}.brand b i{font-style:normal;color:var(--accent)}
 .brand .bt span{font-size:11px;color:var(--muted)}
+.brand b i .sep{display:inline-block;margin:0 .32em 0 .34em;font-size:inherit;font-weight:400;color:var(--muted)}
 .back{display:block}
 .foot{max-width:720px;margin:0 auto;padding:0 16px 40px;font-size:14px;color:var(--muted)}
 </style>
 </head>
 <body>
 <main>
-<a class="brand" href="./" aria-label="fishing.mcbflow.com: go to Log"><svg aria-hidden="true" focusable="false" width="28" height="28" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="mbfi-g1-1" gradientUnits="userSpaceOnUse" x1="10" y1="0" x2="54" y2="64"><stop offset="0" stop-color="#2d809a"/><stop offset=".55" stop-color="#0B6B8A"/><stop offset="1" stop-color="#09566e"/></linearGradient><clipPath id="mbfi-c1-1"><rect width="64" height="64" rx="18"/></clipPath></defs><g clip-path="url(#mbfi-c1-1)"><rect width="64" height="64" fill="url(#mbfi-g1-1)"/><path d="M13 51C24 36 36 22 50 13" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/><circle cx="20" cy="43" r="4.6" fill="#fff"/><circle cx="20" cy="43" r="1.6" fill="#0B6B8A"/>
-<path d="M50 13v23" stroke="#fff" stroke-opacity=".8" stroke-width="2.4"/><path d="M50 38v5.5a4 4 0 0 1-8 0" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/><ellipse cx="50" cy="35" rx="3.2" ry="4.2" fill="#F2B640"/></g></svg><span class="bt"><b>fishing<i>.mcbflow.com</i></b><span>Official Web App · v1.7</span></span></a>
+<a class="brand" href="./" aria-label="Fishing (fishing.mcbflow.com): go to Log"><svg aria-hidden="true" focusable="false" width="28" height="28" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="mbfi-g1-1" gradientUnits="userSpaceOnUse" x1="10" y1="0" x2="54" y2="64"><stop offset="0" stop-color="#2d809a"/><stop offset=".55" stop-color="#0B6B8A"/><stop offset="1" stop-color="#09566e"/></linearGradient><clipPath id="mbfi-c1-1"><rect width="64" height="64" rx="18"/></clipPath></defs><g clip-path="url(#mbfi-c1-1)"><rect width="64" height="64" fill="url(#mbfi-g1-1)"/><path d="M13 51C24 36 36 22 50 13" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/><circle cx="20" cy="43" r="4.6" fill="#fff"/><circle cx="20" cy="43" r="1.6" fill="#0B6B8A"/>
+<path d="M50 13v23" stroke="#fff" stroke-opacity=".8" stroke-width="2.4"/><path d="M50 38v5.5a4 4 0 0 1-8 0" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/><ellipse cx="50" cy="35" rx="3.2" ry="4.2" fill="#F2B640"/></g></svg><span class="bt"><b>Fishing<i class="tld"><span class="sep" aria-hidden="true">∙</span>mcbflow.com</i></b><span>Official Web App · v1.8</span></span></a>
 <a class="back" href="./">← Back to the app</a>
 <h1>Privacy</h1>
-<p class="muted">Last updated October 15, 2026. This page describes what the app does today. If the app changes, this page changes with it.</p>
+<p class="muted">Last updated October 16, 2026. This page describes what the app does today. If the app changes, this page changes with it.</p>
 
 <div class="card short">
 <p><b>The short version</b></p>
@@ -91,9 +92,9 @@ h1{font-weight:650;letter-spacing:-.015em}h2{font-weight:650}
 </div>
 <div class="card">
 <h3>Weather (Open-Meteo, api.open-meteo.com)</h3>
-<p>When: weather is on in More → Settings and a running trip gets a location, either from your position or from the spot you pick for it. Once a trip has weather, it isn’t asked again.</p>
+<p>When: weather is on in Settings and a running trip gets a location, either from your position or from the spot you pick for it. Once a trip has weather, it isn’t asked again.</p>
 <p>Also when: you open the Bite forecast on the Log screen. It asks for the hourly forecast (about 4 days) for your location, or for your saved spot if location isn’t available. The forecast is kept in memory on your device and isn’t saved to your log.</p>
-<p>Sent: your location rounded to about 1 km. Open-Meteo says it keeps web server logs, including IP addresses, for about 90 days. Turn weather off in More → Settings to stop this.</p>
+<p>Sent: your location rounded to about 1 km. Open-Meteo says it keeps web server logs, including IP addresses, for about 90 days. Turn weather off in Settings to stop this.</p>
 </div>
 <div class="card">
 <h3>Map tiles (OpenFreeMap, tiles.openfreemap.org)</h3>
@@ -121,7 +122,7 @@ h1{font-weight:650;letter-spacing:-.015em}h2{font-weight:650}
 <p>These services have their own privacy practices: <a href="https://open-meteo.com/en/terms" rel="noopener">Open-Meteo</a>, <a href="https://openfreemap.org/tos/" rel="noopener">OpenFreeMap</a>, <a href="https://github.com/komoot/photon" rel="noopener">Photon</a>, <a href="https://policies.google.com/privacy" rel="noopener">Google</a>.</p>
 
 <h2>Optional sync</h2>
-<p>If you sign in with a free mcbflow.com account (Data → Sync across devices, or More), your catches, trips, spots, notes, their coordinates and weather snapshots, the running trip, and your units, weather setting, region, species and lure lists are copied to your account so your other devices match. <b>Photos are not synced</b>: they stay on the device that took them, and other devices show “Not on this device”. Use Back up everything (ZIP) to move photos. Your current lure, last species and spot, theme and backup details stay on each device. The account database is run by Supabase (servers in the eastern United States); only your account can read your records. Signing out stops syncing and keeps the data on this device. You can export or delete your synced data, or delete your account, on the <a href="https://mcbflow.com/account.html">mcbflow.com account page</a>. More detail is in the <a href="https://mcbflow.com/#privacy">mcbflow.com privacy policy</a>.</p>
+<p>If you sign in with a free mcbflow.com account (Sign in in the top bar, Data → Sync across devices, or Settings → Account &amp; sync), your catches, trips, spots, notes, their coordinates and weather snapshots, the running trip, and your units, weather setting, region, species and lure lists are copied to your account so your other devices match. <b>Photos are not synced</b>: they stay on the device that took them, and other devices show “Not on this device”. Use Back up everything (ZIP) to move photos. Your current lure, last species and spot, theme and backup details stay on each device. The account database is run by Supabase (servers in the eastern United States); only your account can read your records. Your sign-in is kept in this browser so you stay signed in; turn off “Keep me signed in on this device” (Settings → Account &amp; sync, or when you sign in) and it lasts only until the browser closes. Signing out stops syncing and keeps the data on this device. You can export or delete your synced data, or delete your account, on the <a href="https://mcbflow.com/account.html">mcbflow.com account page</a>. More detail is in the <a href="https://mcbflow.com/#privacy">mcbflow.com privacy policy</a>.</p>
 
 <h2>Location</h2>
 <p>The app asks your browser for your location only when you do something that needs it: tapping Allow location, Use my location or the locate button, logging a fish, starting a trip, or opening an empty map. While a trip is running, it also refreshes your position every few minutes so new catches get the right place. Your browser asks you first, and you can say no. If you allow it, the exact coordinates are saved with that catch or trip on your device, and copied to your account only if you sign in to sync. You can always search for a place or paste coordinates instead.</p>
@@ -131,9 +132,9 @@ h1{font-weight:650;letter-spacing:-.015em}h2{font-weight:650}
 
 <h2>Your controls</h2>
 <ul>
-<li><b>Export:</b> More → Back up everything (ZIP with photos), or JSON, CSV and GPX.</li>
-<li><b>Import:</b> More → Other formats and restore.</li>
-<li><b>Delete:</b> More → Storage and delete data → Delete all data. It erases your log, photos, preferences and the saved map tiles on this device. If you are signed in to sync, it deletes your synced Fishing data too. Clearing this site’s data in your browser does the same.</li>
+<li><b>Export:</b> Data → Export All (ZIP) for everything with photos and a spreadsheet, or JSON, CSV, Photos (ZIP) and Spots (GPX).</li>
+<li><b>Import:</b> Data → Import Backup (JSON or ZIP) or Import Spots (GPX).</li>
+<li><b>Delete:</b> Data → Clear all data (also in Settings → Backup &amp; data). It erases your log, photos, preferences and the saved map tiles on this device. If you are signed in to sync, it deletes your synced Fishing data too. Clearing this site’s data in your browser does the same.</li>
 </ul>
 <p>Backup files are not encrypted and contain exact spot locations and your notes. Keep them private, especially if you guard your fishing spots.</p>
 <p>If you don’t sign in, I do not receive your data, so there is nothing on a server for me to look up, correct or delete. If you do, you can export or delete your synced data yourself on the account page.</p>

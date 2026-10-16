@@ -55,5 +55,5 @@ Rules for adding or editing a species: only cite a page you actually read, tie e
 
 - **Open-Meteo is free for non-commercial use only.** If the app ever gets ads or a paid plan, buy their commercial plan or switch weather providers first.
 - **Photon's public server is a fair-use demo.** If traffic grows, run your own Photon instance or use another geocoder.
-- **Name and domain:** "mbfishing.online" was not checked against trademark registries. Run a search (USPTO TESS/trademark search and a general web search for "mbfishing") before building a brand around it.
+- **Name and domain:** "fishing.mcbflow.com" was not checked against trademark registries. Run a search (USPTO trademark search and a general web search) before building a brand around it.
 - **Share images** (`mb-share.js`): drawn on the device with the system font, the app badge and the NA-03 art. No third-party code or artwork.
